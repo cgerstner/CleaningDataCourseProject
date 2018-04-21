@@ -63,5 +63,5 @@ names(dt) <- gsub('BodyBody', 'Body', names(dt))
 summary <- summarize_all(group_by(dt, activity, subject), mean)
 
 # save to a file and clean up the environment
-write.table(summary, 'tidydata.txt')
+write.table(summary, 'tidydata.txt', row.names = FALSE)
 rm(dt, activity_names, ds_dir, url, var_labels)
