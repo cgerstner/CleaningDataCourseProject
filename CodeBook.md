@@ -1,8 +1,11 @@
-= CodeBook
-== Identifying / Group Info
+CodeBook
+========
+Identifying / Group Info
+------------------------
 activity - factor: the activity performed for the measurement, one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject - int: unique identifier per subject
-== Data
+Data
+----
 The measurement data in this set is all normalized and therefore has no units. Prior to being normalized, collected accelerometer data was in g, and gyroscope data was in rad/s.
 
 The data is named according to the following standard:
@@ -85,7 +88,8 @@ timeGravityAcc.std.X
 timeGravityAcc.std.Y
 timeGravityAcc.std.Z
 
-== Processing and Transformation
+Processing and Transformation
+-----------------------------
 The original data set includes "trial" and "test" data separately. In this set, they are merged and summarized together.
 The activity column is a numerical identifier in the original data set. This data set converts that to a named factor for greater clarity. These names are taken 
 programmatically from the file in the data set identifying them.
