@@ -1,8 +1,8 @@
 CodeBook
 ========
 
-activity - factor: the activity performed for the measurement, one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-subject - int: unique identifier per subject
+* activity - factor: the activity performed for the measurement, one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* subject - int: unique identifier per subject
 
 Measurement Data
 ----------------
