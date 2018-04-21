@@ -1,15 +1,13 @@
 = CodeBook
-
 == Identifying / Group Info
 activity - factor: the activity performed for the measurement, one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject - int: unique identifier per subject
-
 == Data
 The measurement data in this set is all normalized and therefore has no units. Prior to being normalized, collected accelerometer data was in g, and gyroscope data was in rad/s.
 
 The data is named according to the following standard:
 
-<domain><Type><Measurement>.<function>[.axis]
+\<domain>\<Type>\<Measurement>.\<function>[.axis]
 
 * Domain is one of "frequency" or "time" depending on whether the measurement is of time or frequency domain.
 * Type is either Body or Gravity. Gravity is the baseline device reading, which was, in the original data set, subtracted from the actual reading to obtain the Body measurements.
