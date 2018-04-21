@@ -1,7 +1,9 @@
 = CodeBook
+
 == Identifying / Group Info
 activity - factor: the activity performed for the measurement, one of: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject - int: unique identifier per subject
+
 == Data
 The measurement data in this set is all normalized and therefore has no units. Prior to being normalized, collected accelerometer data was in g, and gyroscope data was in rad/s.
 
